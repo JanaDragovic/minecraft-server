@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Count</title>
+    <style>
+        body {
+            background-color: #FF7F50;
+            font-family: Arial, sans-serif;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .content {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <script>
+        // This script will refresh the page every second
+        setTimeout(function() {
+            window.location.reload(1);
+        }, 1000);
+    </script>
+</head>
+<body>
+    <div class="content">
+        <pre>{{ content }}</pre>
+    </div>
+</body>
+</html>

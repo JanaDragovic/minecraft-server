@@ -1,0 +1,9 @@
+# https://docs.cubxity.dev/docs/unifiedmetrics/drivers/prometheus
+
+mode: "HTTP"
+
+http:
+  host: "0.0.0.0"
+  port: 9100
+  authentication:
+    scheme: "NONE"

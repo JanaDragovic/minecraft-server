@@ -1,0 +1,16 @@
+/* General Styling */
+body {
+    font-family:'Arial', 'Helvetica', 'Verdana', 'Roboto', 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    background: #f8f0e3;
+    color: #3d2b1f;
+    line-height: 1.6;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
